@@ -7,4 +7,5 @@
   </Folder>
   <Project Path="../DiGi.GIS/DiGi.GIS/DiGi.GIS.csproj" />
   <Project Path="DiGi.GIS.YOLO/DiGi.GIS.YOLO.csproj" />
+  <Project Path="../DiGi.Test/DiGi.GIS.YOLO.xUnit/DiGi.GIS.YOLO.xUnit.csproj" />
 </Solution>
