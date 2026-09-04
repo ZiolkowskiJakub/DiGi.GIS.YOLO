@@ -9,10 +9,10 @@ namespace DiGi.GIS.YOLO
     public static partial class Create
     {
         /// <summary>
-        /// Creates a list of <see cref="GIS.Classes.Building2DYearBuiltPredictions"/> instances from the specified bounding box result file.
+        /// Creates a list of <see cref="Classes.Building2DYearBuiltPredictions"/> instances from the specified bounding box result file.
         /// </summary>
         /// <param name="boundingBoxResultFile">The bounding box result file containing YOLO predictions.</param>
-        /// <returns>A list of <see cref="GIS.Classes.Building2DYearBuiltPredictions"/> objects grouped by building reference if valid; otherwise, <c>null</c>.</returns>
+        /// <returns>A list of <see cref="Classes.Building2DYearBuiltPredictions"/> objects grouped by building reference if valid; otherwise, <c>null</c>.</returns>
         public static List<Building2DYearBuiltPredictions>? Building2DYearBuiltPredictions(this BoundingBoxResultFile? boundingBoxResultFile)
         {
             if (boundingBoxResultFile is null)
@@ -69,10 +69,10 @@ namespace DiGi.GIS.YOLO
         }
 
         /// <summary>
-        /// Creates a list of <see cref="GIS.Classes.Building2DYearBuiltPredictions"/> instances from the specified YOLO prediction result.
+        /// Creates a list of <see cref="Classes.Building2DYearBuiltPredictions"/> instances from the specified YOLO prediction result.
         /// </summary>
         /// <param name="yOLOPredictionResult">The YOLO prediction result containing bounding box data.</param>
-        /// <returns>A list of <see cref="GIS.Classes.Building2DYearBuiltPredictions"/> objects grouped by building reference if valid; otherwise, <c>null</c>.</returns>
+        /// <returns>A list of <see cref="Classes.Building2DYearBuiltPredictions"/> objects grouped by building reference if valid; otherwise, <c>null</c>.</returns>
         public static List<Building2DYearBuiltPredictions>? Building2DYearBuiltPredictions(this YOLOPredictionResult? yOLOPredictionResult)
         {
             if (yOLOPredictionResult is null)
